@@ -72,6 +72,13 @@ html {
   background-color: tan;
 }
 
+.titulo {
+
+position:absolute;
+top:10%;
+font-size: 36px;
+font-family: 'Roboto Condensed', sans-serif;
+}
 .stand {
   position: relative;
   height: 28rem;
