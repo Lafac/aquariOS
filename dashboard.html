@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
     <style>
       body{
-        background-color: #E0E0E0;
+        background-color: #888;
+        color:#fff;
       }
 
       .content {
@@ -30,6 +31,8 @@
 
       .card {
         min-height: 380px;
+        background-color:#353535;
+        color:#fff; 
       }
 
       .activator {
@@ -56,7 +59,7 @@
               <span id="currentTemp" class="statistic">-</span>
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">
+              <span class="card-title activator">
                 Temperatura
                 <i class="material-icons right">more_vert</i>
               </span>
@@ -77,7 +80,7 @@
               <span id="currentUmid" class="statistic">-</span>
             </div>
             <div class="card-content activator">
-              <span class="card-title grey-text text-darken-4">
+              <span class="card-title">
                 Umidade
                 <i class="material-icons right">more_vert</i>
               </span>
@@ -98,7 +101,7 @@
               <i id="currentPresence" class="material-icons statistic">my_location</i>
             </div>
             <div class="card-content">
-              <span class="card-title grey-text text-darken-4">
+              <span class="card-title">
                 Presença
               </span>
             </div>
@@ -110,7 +113,7 @@
               <i id="currentLamp" class="material-icons statistic">flash_on</i>
             </div>
             <div class="card-content">
-              <span class="card-title grey-text text-darken-4">
+              <span class="card-title">
                 Lampada
               </span>
               <a class="waves-effect waves-light btn col s12" id="btn-lamp">
