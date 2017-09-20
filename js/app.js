@@ -71,7 +71,7 @@ function onNewData(currentValueEl, chartEl, label, metric){
           currentValue = readings[key]
           bola.push(currentValue);
         }
-        data = bola.slice(-5);
+        data = bola.slice(-15);
         document.getElementById(currentValueEl).innerText = currentValue + ' ' + metric;
         buildLineChart(chartEl, label, data);
     }
